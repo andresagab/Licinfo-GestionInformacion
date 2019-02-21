@@ -127,3 +127,37 @@ a {
     padding: 0px 50px 0px 90px;
 }
 /* END diagramacionInformacion.html */
+
+/* contacto.html */
+.subtituloNombre{
+    padding: 0px 0px 0px 100px;
+}
+
+.subtituloEmpresa{
+    padding: 0px 15px 0px 15px;
+}
+
+.subtituloEmail{
+    padding: 0px 100px 0px 0px;
+}
+
+.lector1{
+    padding: 0px 0px 0px 100px;
+}
+
+.lector2{
+    padding: 0px 15px 0px 15px;
+}
+
+.lector23{
+    padding: 0px 100px 0px 0px;
+}
+
+.lectorGrande{
+    padding: 0px 0px 10px 20px;
+}
+
+.mensaje{
+    padding: 5px 0px 5px 100px;
+}
+/* FIN contacto.html */
