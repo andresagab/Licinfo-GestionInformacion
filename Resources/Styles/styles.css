@@ -1,0 +1,98 @@
+body{
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*MENU BAR*/
+.menu{
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    padding-bottom: 5px;
+    background-color: #1b1b1b;
+}
+
+.pageName{
+    padding: 20px 0px 20px 0px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.escudoUdenarMenu{
+    padding: 7px 0px 5px 30px;
+    color: #fff;
+    font-size: 18px;
+    height: 50px;
+    width: 62px;
+}
+
+.optionsMenu{
+    font-size: 14px;
+    padding: 18px 30px 0px 0px;
+}
+/*END MENU BAR*/
+
+/*CONTENT*/
+.content{
+    width: 100%;
+    height: max-content;
+    position: static;
+    padding: 40px 0px 0px 0px;
+}
+
+.rowLogoLicinfoIndex{
+    padding: 100px 100px 80px 0px;
+}
+
+.rowPageDesciptionIndex{
+    padding: 100px 0px 80px 0px;
+}
+
+.fontLeftTittleIndex{
+    color: #26ac30;
+    font-size: 30px;
+}
+
+.fontEndTittleIndex{
+    color: #1b1b1b;
+    font-size: 30px
+}
+
+.pageDescriptionIndex{
+    padding: 0px 100px 0px 0px;
+}
+
+.rowPageTittleVideo{
+    padding: 50px 0px 0px 0px;
+}
+
+.rowPageVideo{
+    padding: 50px 0px 30px 0px;
+}
+/*END CONTENT*/
+
+/*FOOTER*/
+.siteFooter{
+    position: static;
+    background-color: #1b1b1b;
+    width: 100%;
+    height: 10%;
+}
+
+.footerContent{
+    color: #fff;
+    font-style: normal;
+    padding: 19px 0 18px 0;
+}
+/*END FOOTER*/
+
+.tittlePrincipal{
+    padding: 20px 0px 20px 0px;
+}
