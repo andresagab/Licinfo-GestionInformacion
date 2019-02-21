@@ -127,3 +127,18 @@ a {
     padding: 0px 50px 0px 90px;
 }
 /* END diagramacionInformacion.html */
+
+/* lineasTiempo.html */
+.subtitulosRecorridos{
+    padding: 0px 0px 30px 35px;
+}
+
+.espacioLinea{
+    padding: 0px 40px 80px 40px;
+}
+
+.fontSubtitulosLineasTiempo{
+    color: #d68345;
+    font-size: 25px;
+}
+/* END lineasTiempo.html */
