@@ -246,3 +246,15 @@ a{
     font-size: 25px;
 }
 /* END lineasTiempo.html */
+
+/* usuarios.php */
+.tablaInfoUsuarios{
+    width: 100%;
+    height: 100%;
+    padding: 0px 50px 50px 50px;
+}
+
+.columnaTablaUsuarios{
+    padding: 10px 10px 10px 10px;
+}
+/* ENDusuarios.php */

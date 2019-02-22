@@ -24,10 +24,11 @@ mysqli_close($link);
                 <td align="end">
                     <ul class="optionsMenu">
                         <a class="optionMenu" href="./../Pages/diagramacionInformacion.html">DIAGRAMACION DE INFORMACIÓN</a>
-                        <a class="optionMenu" href="./../Pages/manejoDeInformacion.html">MANEJO DE INFORMACIÓN</a>
+                        <a class="optionMenu" href="./../Pages/manejoDeInformacion.html">CMI</a>
                         <a class="optionMenu" href="./../Pages/pensamientoComputacional.html">PENSAMIENTO COMPUTACIONAL</a>
-                        <a class="optionMenu" href="./../Pages/contacto.html">CONTACTO</a>
                         <a class="optionMenu" href="./../Pages/lineasTiempo.html">LINEAS DE TIEMPO</a>
+                        <a class="optionMenu" href="./../Pages/contacto.html">CONTACTO</a>
+                        <a class="optionMenu" href="./../Pages/usuarios.php">INFO USUARIOS</a>
                     </ul>
                 </td>
             </tr>
