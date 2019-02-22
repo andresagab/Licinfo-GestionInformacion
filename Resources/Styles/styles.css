@@ -5,9 +5,14 @@ body{
     width: 100%;
 }
 
-a {
+a{
     text-decoration: none;
-    color: white;
+    color: #fff;
+}
+
+.aBlack{
+    text-decoration: none;
+    color: #000;
 }
 
 /*MENU BAR*/
@@ -153,6 +158,25 @@ a {
 }
 /* END manejoDeInformacion.html */
 
+/* pensamientoComputacional.html */
+.filaTituloDocumentoXLS{
+    padding: 20px 0px 20px 0px;
+}
+
+.fontTituloDocumentoXLS{
+    color: #24ac30;
+    font-size: 20px;
+}
+
+.filaImagenXLS{
+    padding: 20px 0px 20px 0px;
+}
+
+.filaOpcionesDescargaXLS{
+    padding: 20px 30px 20px 30px;
+}
+/* END pensamientoComputacional.html */
+
 /* contacto.html */
 .subtituloNombre{
     padding: 0px 0px 0px 100px;
@@ -184,6 +208,20 @@ a {
 
 .mensaje{
     padding: 5px 0px 5px 100px;
+}
+
+.boton{
+    padding: 5px 10px 5px 10px;
+}
+
+.boton:hover{
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    background-color: #1b1b1b;
+}
+
+.filaBoton{
+    padding: 10px 0px 250px 0px;
 }
 /* FIN contacto.html */
 
