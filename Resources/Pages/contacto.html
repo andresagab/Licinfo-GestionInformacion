@@ -30,50 +30,56 @@
         <!-- END MENU --
         <!------------------------------------------------------------------------------------------------------------------->
         <!-- CONTENT -->
-        <table class="content" border="0">
-            <tr>
-                <td class="rowPrincipalTittle" colspan="3" align="center" width="100%">
-                    <font class="fontPrincipalTittle">FORMULARIO DE SUGERENCIAS</font>
-                </td>
-            </tr>
-            <tr>
-                <td class="subtituloNombre" align="left">
-                    <font>NOMBRE:</font>
-                </td>
-                <td class="subtituloEmpresa" align="left">
-                    <font>EMPRESA:</font>
-                </td>
-                <td class="subtituloEmail" align="left">
-                    <font>E-MAIL:</font>
-                </td>
-            </tr>
-            <tr>
-                <td class="lector1" align="left">
-                    <input type="texto" name="nombre" size="40">
-                </td>
-                <td class="lector2" align="left">
-                    <input type="texto" name="empresa" size="40">
-                </td>
-                <td class="lector3" align="left">
-                    <input type="texto" name="e-mail" size="40">
-                </td>
-            </tr>
-            <tr>
-                <td class="mensaje " colspan="3" align="left" width="100%">
-                    <font>MENSAJE:</font>
-                </td>
-            </tr>
-            <tr>
-                <td class="lectorGrande" colspan="3" align="center" width="100%">
-                    <textarea cols="165" rows="3"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td class="filaBoton" colspan="3" align="center" width="100%" height="100%">
-                    <button class="boton" type="submit">Enviar</button>
-                </td>
-            </tr>
-        </table>
+        <form name="contacto" method="POST" action="./../php/adicionar.php">
+            <table class="contenidoLargoAnchoMax" border="0">
+                <tr>
+                    <td class="rowPrincipalTittle" colspan="3" align="center" width="100%">
+                        <font class="fontPrincipalTittle">FORMULARIO DE SUGERENCIAS</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="subtituloNombre" align="left">
+                        <font>NOMBRE:</font>
+                    </td>
+                    <td class="subtituloEmpresa" align="left">
+                        <font>EMPRESA:</font>
+                    </td>
+                    <td class="subtituloEmail" align="left">
+                        <font>E-MAIL:</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lector1" align="left">
+                        <input type="texto" name="nombre" size="40">
+                    </td>
+                    <td class="lector2" align="left">
+                        <input type="texto" name="empresa" size="40">
+                    </td>
+                    <td class="lector3" align="left">
+                        <input type="texto" name="email" size="40">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mensaje " colspan="3" align="left" width="100%">
+                        <font>MENSAJE:</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="lectorGrande" colspan="3" align="center" width="100%">
+                        <textarea cols="165" rows="3" name="mensaje"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="" colspan="3" align="center" width="100%">
+                        <button class="boton" type="reset">Cancelar</button>
+                        <button class="boton" type="submit">Enviar</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="50%" colspan="3"></td>
+                </tr>
+            </table>
+        </form>
         <!-- END CONTENT -->
         <!------------------------------------------------------------------------------------------------------------------->
         <!-- FOOTER -->
